@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: left;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: lightslategray;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    background-color: white;
+    color: black;
+  }
+
+  /*Body*/
+  body {
+    background-color: #43adc0;
+    align-content: center;
+    
+}
+
+/*Image Gallery*/
+.images{
+  overflow: hidden;
+  text-align: center;
+}
+
+.images img{
+  width: 10%;
+  height: 100px;
+  margin: 15px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.images img:hover {
+  opacity: .8;
+}
+
+.pre{
+  width: 775px;
+  height: 500px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.pre img {
+  width: 100%;
+  height: 100%;
+}
+
+.pre a {
+  color: #000;
+  font-size: 20px;
+  position: absolute;
+  padding: 0 0 10px;
+  cursor: pointer;
+}
+
+div {
+  float: none;
+  height: auto;
+  width: auto;
+  padding: 0 50px;
+}
+
+#column1, #column2 {
+  background-color: #43adc0;
+  opacity: .08;
+}
+
+h1, h3 {
+  color: #000;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
