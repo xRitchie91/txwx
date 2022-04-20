@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn0.iconfinder.com/data/icons/customicondesign-state-png/256/Texas-Flag.png">
+    <title>TX Weather</title>
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+
+
+<header>
+    <!-- Nav Start-->
+    <div class="navbar">
+        <a href="./index.html">Home</a>
+        <a href="./conditions.html">Radar</a>
+        <a href="#alerts">Alerts</a>
+        <a class="active" href="./gallery.html">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a href="./about.html">About</a>
+      </div>
+</header>
+
+
+<body>
+    <div class="images">
+        <img onclick="func(this)" src="./images/arizona.jpg" alt="Moutains and Clouds">
+        <img onclick="func(this)" src="./images/hamiltonpool.jpg" alt="Waterfall">
+        <img onclick="func(this)" src="./images/hail.jpg" alt="Hail stones">
+        <img onclick="func(this)" src="./images/mammatus.jpg" alt="Mammatus Clouds">
+        <img onclick="func(this)" src="./images/iceroads.jpg" alt="Ice covered road">
+    </div>
+    <div class="pre">
+        <a onclick="this.parentElement.style.display='none'" class="ion-close-circled"></a>
+        <img id="p" src="./images/arizona.jpg">
+    </div>
+
+    <script>
+        var p = document.getElementById("p");
+
+        function func(image){
+            p.src = image.src;
+            p.parentElement.style.display="block";
+        }
+    </script>
+</body>
+</html>
