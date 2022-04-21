@@ -4,15 +4,16 @@
 }
 
 .navbar {
-    background-color: #333;
+    background-color: transparent;
     overflow: hidden;
+    border-radius: 15px 15px;
   }
   
   /* Style the links inside the navigation bar */
   .navbar a {
     float: left;
     color: #f2f2f2;
-    padding: 14px 16px;
+    padding: 20px 25px;
     text-decoration: none;
     font-size: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -23,18 +24,21 @@
   .navbar a:hover {
     background-color: lightslategray;
     color: black;
+    border-radius: 15px 15px;
   }
   
   /* Add a color to the active/current link */
   .navbar a.active {
     background-color: white;
     color: black;
+    border-radius: 15px 15px;
   }
 
-  /*Body*/
+/*Body*/
   body {
     background-color: #43adc0;
     align-content: center;
+    background-image: linear-gradient();
     
 }
 
@@ -54,6 +58,7 @@
 
 .images img:hover {
   opacity: .8;
+  border-radius: 15px 15px;
 }
 
 .pre{
@@ -62,6 +67,7 @@
   margin: auto;
   position: relative;
   overflow: hidden;
+  border-radius: 15px 15px 15px 15px;
 }
 
 .pre img {
@@ -77,16 +83,25 @@
   cursor: pointer;
 }
 
-div {
+main {
   float: none;
   height: auto;
   width: auto;
   padding: 0 50px;
+  background-color: #fff;
 }
 
-#column1, #column2 {
-  background-color: #43adc0;
-  opacity: .08;
+.column1, .column2 {
+  float: left;
+  height: auto;
+  width: 500px;
+  padding: 0 50px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: #fff;
+}
+
+p {
+  align-content: center;
 }
 
 h1, h3 {
